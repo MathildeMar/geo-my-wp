@@ -120,7 +120,7 @@ function gmw_get_post_featured_image( $post = 0, $gmw = array(), $size = '', $at
 		}
 
 		$output .= '<div class="post-thumbnail no-image">';
-		$output .= '<img class="gmw-image"';
+		$output .= '<img class="gmw-image" ';
 		$output .= 'src="' . GMW_IMAGES . '/no-image.jpg" ';
 		$output .= 'width=" ' . esc_attr( $args['size'][0] ) . '" ';
 		$output .= 'height=" ' . esc_attr( $args['size'][1] ) . '" ';
